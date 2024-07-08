@@ -1,0 +1,249 @@
+---
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About | Clara Cuartas" description="About Clara Cuartas - Designer and Educator">
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero title="About Me" />
+
+      <section>
+        <h2 class="section-title">About Me</h2>
+        <div class="content">
+          <p>
+            Hello! I am Clara Cuartas, a graphic designer with over ten years of experience in UI/UX. I enjoy creating
+            digital experiences that are both functional and accessible. With a strong background in psychology and
+            teaching, I have a unique perspective on understanding and addressing user needs empathetically. My goal is
+            to design solutions that truly make a difference in people's lives.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="content">
+          <p>
+            Throughout my career, I have worked on designing interfaces for web and mobile devices, honing my UI and UX
+            skills. My background in graphic design and constant updating on the latest UI/UX trends allow me to offer
+            creative and effective solutions. I deeply appreciate teamwork and have led various projects, always aiming
+            to create intuitive and accessible digital experiences. I strive to communicate clearly and guide teams to
+            ensure user needs are always the priority.
+          </p>
+          <ul>
+            <li>
+              <strong>2021 - 2023:</strong> Freelance Designer - Branding, Website Design, and Social Media Management
+            </li>
+            <li><strong>2018 - 2023:</strong> Facilitator at Colegiatura - Teaching, Mentorship, and Workshops</li>
+            <li>
+              <strong>2017 - 2021:</strong> Designer at Trusty To You - UI/UX, Branding, Social Media Management, and Digital
+              Marketing
+            </li>
+            <li>
+              <strong>2015 - 2016:</strong> Project Coordinator at Conker - Client, Designer, and Programmer Liaison
+            </li>
+            <li>
+              <strong>2013 - 2015:</strong> Administrator at Tienda Plasma - Personnel Management, Design Product Supervision,
+              Administrative and Accounting Management
+            </li>
+            <li>
+              <strong>2009 - 2013:</strong> Design and Production Assistant at Plasma - Supervision and Management of Graphic
+              and Industrial Clients
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <p>
+            Besides being a graphic designer, I have a background in psychology, complementing my user-centered design
+            approach. Over five years, I have been a university lecturer in personal development, which has allowed me
+            to develop assertive communication and leadership skills. These experiences enable me to approach design
+            holistically, ensuring each project is empathetic, creative, and accessible.
+          </p>
+          <ul>
+            <li><strong>2024:</strong> User Experience Design (UX) - Google Coursera</li>
+            <li><strong>2023:</strong> Basic UI Concepts - Platzi</li>
+            <li><strong>2022 - 2023:</strong> General English Program - ILSC</li>
+            <li>
+              <strong>2018 - 2022</strong>
+              <br />
+              Psychology - Católica del Norte
+              <br />
+              Empathy, critical and analytical thinking, research and analysis, human behavior comprehension.
+            </li>
+            <li>
+              <strong>2017 - 2017</strong>
+              <br />
+              Systemic Development Facilitation - Colegiatura
+              <br />
+              Assertive communication, collaborative work, critical and analytical thinking, human behavior comprehension.
+            </li>
+            <li>
+              <strong>2017 - 2017</strong>
+              <br />
+              The Artist as a Brand - UPB
+              <br />
+              Web design, marketing, research and analysis, user-centered design, collaborative work.
+            </li>
+            <li>
+              <strong>2014 - 2014</strong>
+              <br />
+              Leadership Master - Colegiatura
+              <br />
+              Leadership, teamwork, empathy, personal development, assertive communication.
+            </li>
+            <li>
+              <strong>2005 - 2009</strong>
+              <br />
+              Graphic Communication - Uniminuto
+              <br />
+              Web design, graphic design, communication, product development.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Skills</h2>
+        <div class="content">
+          <h3>UI Design</h3>
+          <ul>
+            <li>Wireframe Creation, Mockups, and Prototypes (High and Low Fidelity)</li>
+            <li>Responsive and Adaptive Design</li>
+            <li>Design Systems</li>
+          </ul>
+
+          <h3>UX Experience</h3>
+          <ul>
+            <li>User Research</li>
+            <li>Persona Analysis and Creation</li>
+            <li>User Testing and Feedback</li>
+            <li>User Flow and Journey Mapping</li>
+          </ul>
+
+          <h3>Design and Prototyping Tools</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Sketch</li>
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Adobe XD</li>
+          </ul>
+
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Empathy</li>
+            <li>Effective and Assertive Communication</li>
+            <li>Team Collaboration</li>
+            <li>Conflict Resolution</li>
+            <li>Flexibility</li>
+            <li>Critical Thinking</li>
+            <li>Creative Thinking and Continuous Improvement</li>
+            <li>Time Management</li>
+            <li>Feedback Reception and Delivery</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  h3 {
+    margin-bottom: 1em;
+  }
+
+  .content h3:first-of-type {
+    margin-top: 0;
+  }
+
+  p {
+    font-size: var(--text-lg);
+    line-height: 1.5;
+    margin-bottom: 1em;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  .profile-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content ul {
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+
+  .content ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  .content h3 {
+    margin-top: 1.5rem;
+    font-size: var(--text-lg);
+    color: var(--gray-0);
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>

@@ -1,0 +1,83 @@
+---
+interface Props {
+  contentImageSrc: string;
+}
+
+const { contentImageSrc } = Astro.props;
+---
+
+<div class="ipad">
+  <div class="screen">
+    <div class="camera"></div>
+    <div class="screen-content">
+      <img src={contentImageSrc} alt="Contenido vertical largo" />
+    </div>
+  </div>
+  <div class="home-button"></div>
+</div>
+
+<style>
+  .ipad {
+    width: 384px;
+    height: 512px;
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .screen {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .camera {
+    width: 60px;
+    height: 10px;
+    background: #000;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .screen-content {
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .screen-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-button {
+    width: 30px; /* Half of 60px */
+    height: 30px; /* Half of 60px */
+    background: radial-gradient(circle, #ffffff 0%, #cccccc 60%, #000000 100%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px; /* Half of 20px */
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.3);
+
+  }
+</style>

@@ -1,0 +1,99 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+  <div class="stack gap-2 lg:gap-3">
+    <Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>UI/UX Designer</h2>
+    <strong>Wireframe, Mockup, and Prototype Creation</strong>
+    <p>
+      Developing comprehensive wireframes, mockups, and prototypes with both high and low fidelity to visualize and
+      refine design concepts effectively.
+    </p>
+  </div>
+  <div class="stack gap-2 lg:gap-3">
+    <Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>User Experience Research</h2>
+    <strong>User Research and Persona Creation</strong>
+    <p>
+      Conducting thorough user research and creating detailed personas to understand and address user needs accurately.
+    </p>
+  </div>
+  <div class="stack gap-2 lg:gap-3">
+    <Icon icon="paper-plane-tilt" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>Accessibility Advocate</h2>
+    <strong>Ensuring Accessible Designs</strong>
+    <p>
+      Commitment to making digital experiences accessible to all users, regardless of their abilities, ensuring
+      inclusivity in all designs.
+    </p>
+  </div>
+  <div class="stack gap-2 lg:gap-3">
+    <Icon icon="heart" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>Empathetic Problem Solver</h2>
+    <strong>Empathy</strong>
+    <p>
+      Utilizing a deep understanding of user emotions and needs to design solutions that truly resonate and make a
+      difference.
+    </p>
+  </div>
+  <div class="stack gap-2 lg:gap-3">
+    <Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>Effective Communication</h2>
+    <strong>Collaboration and Teamwork</strong>
+    <p>
+      Strong skills in working collaboratively with teams, ensuring clear and effective communication throughout the
+      design process.
+    </p>
+  </div>
+  <div class="stack gap-2 lg:gap-3">
+    <Icon icon="rocket-launch" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>Creative Thinking</h2>
+    <strong>Innovative Solutions</strong>
+    <p>
+      Applying creative thinking to develop innovative solutions that improve user experience and drive project success.
+    </p>
+  </div>
+</section>
+
+<style>
+  .box {
+    border: 1px solid var(--gray-800);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    background-color: var(--gray-999_40);
+    box-shadow: var(--shadow-sm);
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .skills h2 {
+    font-size: var(--text-lg);
+  }
+
+  .skills p {
+    color: var(--gray-400);
+  }
+
+  @media (min-width: 50em) {
+    .box {
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5rem;
+    }
+
+    .skills h2 {
+      font-size: var(--text-2xl);
+    }
+  }
+</style>

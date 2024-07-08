@@ -1,0 +1,94 @@
+---
+interface Props {
+  contentImageSrc: string;
+}
+
+const { contentImageSrc } = Astro.props;
+---
+
+<div class="iphone">
+  <div class="screen">
+    <div class="notch"></div>
+    <div class="screen-content">
+      <img src={contentImageSrc} alt="Contenido vertical largo" />
+    </div>
+  </div>
+  <div class="home-button"></div>
+</div>
+
+<style>
+  .iphone {
+    width: 300px;
+    height: 600px;
+    border-radius: 40px;
+    background: #000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .screen {
+    width: 100%;
+    height: calc(100% - 60px);
+    background: #fff;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    animation: open 4s forwards;
+    transform-style: preserve-3d;
+    transform: perspective(1000px) rotateX(-88.5deg);
+    transform-origin: 50% 100%;
+  }
+
+  @keyframes open {
+    0% {
+      transform: perspective(1000px) rotateX(-88.5deg);
+    }
+    100% {
+      transform: perspective(1000px) rotateX(0deg);
+    }
+  }
+
+  .notch {
+    width: 200px;
+    height: 30px;
+    background: #000;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .screen-content {
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+    border-radius: 30px;
+    background-color: white;
+  }
+
+  .screen-content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-button {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+</style>
