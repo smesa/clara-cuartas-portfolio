@@ -132,19 +132,21 @@ const { Content } = await entry.render();
     text-decoration-color: currentColor;
   }
 
-  @media (min-width: 50em) {
+  
+  @media (min-width: 600px) {
     .back-link {
       display: block;
       align-self: flex-start;
     }
-
+  
     .details {
       flex-direction: row;
       gap: 2.5rem;
     }
-
+  
     .content :global(blockquote) {
       font-size: var(--text-2xl);
     }
-  }
+  } 
+
 </style>

@@ -21,7 +21,7 @@ An extensive image manual was developed to ensure consistency across all brand t
 
 ![Branding](/assets/clara-cuartas-2.png)
 
-&nbsp;&nbsp;
+&nbsp;
 
 ### Research and Insights
 

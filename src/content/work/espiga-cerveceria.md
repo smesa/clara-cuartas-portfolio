@@ -13,7 +13,7 @@ tags:
 ---
 
 <p align="center">
-  <img src="/assets/espiga-cerveceria-1.png" alt="Espiga Cervecería App Screens" width="50%" />
+  <img src="/assets/espiga-cerveceria-1.png" alt="Espiga Cervecería App Screens" width="100%" />
 </p>
 
 &nbsp;
@@ -27,7 +27,7 @@ Although Espiga Cervecería is known for its excellent beer and is a popular spo
 &nbsp;
 
 <p align="center">
-  <img src="/assets/espiga-cerveceria-3.png" alt="Espiga Cervecería App Screens" width="80%" />
+  <img src="/assets/espiga-cerveceria-3.png" alt="Espiga Cervecería App Screens" width="100%" />
 </p>
 
 &nbsp;
@@ -40,9 +40,9 @@ Usability tests conducted yielded very favorable results, demonstrating that the
 
 &nbsp;
 
-<p align="center">
-  <img src="/assets/espiga-cerveceria-5.png" alt="Espiga Cervecería App Screens" width="40%" />
-  <img src="/assets/espiga-cerveceria-6.png" alt="Espiga Cervecería App Screens" width="40%" />
+<p align="center" style="padding: 0;">
+  <img src="/assets/espiga-cerveceria-5.png" alt="Espiga Cervecería App Screens" width="45%" class="img-mid"/>
+  <img src="/assets/espiga-cerveceria-6.png" alt="Espiga Cervecería App Screens" width="45%" class="img-mid"/>
 </p>
 
 &nbsp;
@@ -53,6 +53,6 @@ Creating the digital menu app for Espiga Cervecería not only enhances the custo
 &nbsp;
 
 <p align="center">
-  <img src="/assets/espiga-cerveceria-9.png" alt="Espiga Cervecería App Screens" />
-  <img src="/assets/espiga-cerveceria-10.png" alt="Espiga Cervecería App Screens" />
+  <img src="/assets/espiga-cerveceria-9.png" alt="Espiga Cervecería App Screens" class="img-mid" />
+  <img src="/assets/espiga-cerveceria-10.png" alt="Espiga Cervecería App Screens" class="img-mid" />
 </p>

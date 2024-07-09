@@ -17,10 +17,7 @@ import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
 
 // Content Fetching: List four most recent work projects
-const projects = (await getCollection('work'))
-  .sort((a, b) => a.data.order - b.data.order)
-  .slice(0, 4);
-
+const projects = (await getCollection('work')).sort((a, b) => a.data.order - b.data.order).slice(0, 4);
 ---
 
 <BaseLayout>
@@ -76,7 +73,6 @@ const projects = (await getCollection('work'))
           </CallToAction>
         </div>
       </section>
-
     </main>
 
     <ContactCTA />
@@ -99,8 +95,8 @@ const projects = (await getCollection('work'))
     aspect-ratio: 5 / 4;
     object-fit: cover;
     object-position: top;
-	border-radius: 1.5rem;
-	box-shadow: var(--shadow-lg)
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-lg);
   }
 
   @media (min-width: 50em) {
@@ -120,8 +116,8 @@ const projects = (await getCollection('work'))
     .hero img {
       aspect-ratio: 3 / 3;
       object-fit: cover;
-	  border-radius: 0;
-	  box-shadow: none;
+      border-radius: 0;
+      box-shadow: none;
     }
   }
 
@@ -225,6 +221,13 @@ const projects = (await getCollection('work'))
     .mention-card {
       border-radius: 1.5rem;
       height: 9.5rem;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .img-mid {
+      max-width: 100%;
+      width: 100%;
     }
   }
 </style>

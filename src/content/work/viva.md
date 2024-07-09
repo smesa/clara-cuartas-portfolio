@@ -17,7 +17,7 @@ The usability exercise was particularly interesting, given the broad and diverse
 &nbsp;
 
 <p align="center">
-  <img src="/assets/viva-2.png" alt="Viva Taxi App Screens" width="60%" />
+  <img src="/assets/viva-2.png" alt="Viva Taxi App Screens" width="100%" />
 </p>
 
 &nbsp;
@@ -28,7 +28,7 @@ Viva Taxi was conceived as an urban solution designed to modernize a traditional
 &nbsp;
 
 <p align="center">
-  <img src="/assets/viva-3.png" alt="Viva Taxi App Screens" width="60%" />
+  <img src="/assets/viva-3.png" alt="Viva Taxi App Screens" width="100%" />
 </p>
 
 &nbsp;
@@ -38,7 +38,7 @@ Extensive testing with various user groups was conducted to identify and resolve
 &nbsp;
 
 <p align="center">
-  <img src="/assets/viva-4.png" alt="Viva Taxi App Screens" width="60%" />
+  <img src="/assets/viva-4.png" alt="Viva Taxi App Screens" width="100%" />
 </p>
 
 &nbsp;

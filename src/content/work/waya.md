@@ -19,7 +19,7 @@ The website's design centered on ease of use and accessibility. Key functionalit
 &nbsp;
 
 <p align="center">
-  <img src="/assets/waya-2.png" alt="Waya App Screens" width="60%" />
+  <img src="/assets/waya-2.png" alt="Waya App Screens" width="100%" />
 </p>
 
 &nbsp;
@@ -30,7 +30,7 @@ The attention to detail in the user experience (UX) and user interface (UI) desi
 &nbsp;
 
 <p align="center">
-  <img src="/assets/waya-3.png" alt="Waya App Screens" width="60%" />
+  <img src="/assets/waya-3.png" alt="Waya App Screens" width="100%" />
 </p>
 
 &nbsp;
@@ -40,7 +40,7 @@ Waya is more than just an e-commerce platform; it is a tool for social change. B
 &nbsp;
 
 <p align="center">
-  <img src="/assets/waya-4.png" alt="Waya App Screens" width="60%" />
+  <img src="/assets/waya-4.png" alt="Waya App Screens" width="100%" />
 </p>
 
 &nbsp;

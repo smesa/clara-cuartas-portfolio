@@ -24,7 +24,7 @@ The platform incorporated accessible design elements, such as adjustable font si
 &nbsp;
 
 <p align="center">
-  <img src="/assets/mova-3.png" alt="MOVA App Screens" width="60%" />
+  <img src="/assets/mova-3.png" alt="MOVA App Screens" width="100%" />
 </p>
 &nbsp;
 
@@ -34,7 +34,7 @@ The color scheme for the platform was carefully chosen to convey trust, professi
 &nbsp;
 
 <p align="center">
-  <img src="/assets/mova-2.png" alt="MOVA App Screens" width="60%" />
+  <img src="/assets/mova-2.png" alt="MOVA App Screens" width="100%" />
 </p>
 
 &nbsp;
@@ -47,7 +47,7 @@ In addition to the core functionalities, the platform includes several user-cent
 
 
 <p align="center">
-  <img src="/assets/mova-4.png" alt="MOVA App Screens" width="60%" />
+  <img src="/assets/mova-4.png" alt="MOVA App Screens" width="100%" />
 </p>
 
 &nbsp;

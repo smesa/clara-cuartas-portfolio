@@ -19,7 +19,7 @@ The design of the Movi platform was a significant challenge as it required creat
 &nbsp;
 
 <p align="center">
-  <img src="/assets/movi-2.png" alt="Movi App Screens" width="60%" />
+  <img src="/assets/movi-2.png" alt="Movi App Screens" width="100%" />
 </p>
 
 
@@ -31,7 +31,7 @@ As a UX/UI Designer, I closely collaborated with Sura employees and participated
 &nbsp;
 
 <p align="center">
-  <img src="/assets/movi-3.png" alt="Movi App Screens" width="60%" />
+  <img src="/assets/movi-3.png" alt="Movi App Screens" width="100%" />
 </p>
 
 
