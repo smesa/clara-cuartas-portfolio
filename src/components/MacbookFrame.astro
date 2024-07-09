@@ -45,11 +45,8 @@ const { contentImageSrc } = Astro.props;
       #f3a469 87%,
       #f7c978 100%
     );
-    transform-style: preserve-3d;
-    transform: perspective(1900px) rotateX(-88.5deg);
-    transform-origin: 50% 100%;
-    animation: open 4s forwards;
   }
+  
   @keyframes open {
     0% {
       transform: perspective(1900px) rotateX(-88.5deg);
@@ -148,5 +145,25 @@ const { contentImageSrc } = Astro.props;
   .screen-content img {
     width: 100%;
     height: auto;
+    z-index: 999;
+  }
+
+  @media (max-width: 600px) {
+    .laptop {
+      transform: scale(0.6);
+    }
+    .screen {
+      transform: perspective(1900px) rotateX(-88.5deg);
+      transform-origin: 50% 100%;
+      animation: open 4s forwards;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .screen {
+      transform: perspective(1900px) rotateX(-88.5deg);
+      transform-origin: 50% 100%;
+      animation: open 4s forwards;
+    }
   }
 </style>
